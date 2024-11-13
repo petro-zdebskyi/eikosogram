@@ -12,7 +12,7 @@ pip install eikosogram
 
 ## Usage
 ```python
->>> import eikosogram.eikosogram as ek
->>> draw_eikosogram(.8, .3, .4, names=('Rain', 'Cloudy'), min_labels=False)
+>>> from eikosogram import eikosogram
+>>> eikosogram.draw_chart(.8, .3, .4, names=('Rain', 'Cloudy'), min_labels=False)
 ```
 Check function docstring for more details.

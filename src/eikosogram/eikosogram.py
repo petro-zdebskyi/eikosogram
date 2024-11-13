@@ -22,7 +22,7 @@ _THEME_COLORS = {
     }
 }
 
-def draw_eikosogram(
+def draw_chart(
         b_a,
         b_not_a,
         a,
@@ -60,7 +60,7 @@ def draw_eikosogram(
 
     Examples
     --------
-    >>> draw_eikosogram(.8, .3, .4, names=('Rain', 'Cloudy'), min_labels=False)
+    >>> draw_chart(.8, .3, .4, names=('Rain', 'Cloudy'), min_labels=False)
     """
 
     e1, e2 = names
